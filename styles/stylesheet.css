@@ -1,0 +1,46 @@
+body {
+  background: #dedede;
+}
+header {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: green;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'Syne Tactile', cursive;
+  font-size: 3em;
+}
+.flexbox-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 50%;
+  background-color: white;
+}
+.flex-item {
+  background: aliceblue;
+  border: 2px dashed #9932cc;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  height: 100px;
+  width: 100px;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+.box {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+/* .flex-item:nth-of-type(2n) {
+  height: 150px;
+  border-color: orange;
+} */
